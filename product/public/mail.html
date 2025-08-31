@@ -1,0 +1,47 @@
+<div style="font-family: Arial, sans-serif; font-size:14px; color:#333;">
+  <h2 style="text-align:center; color:#2c3e50;">Order Confirmation</h2>
+  
+  <p>Hi <b>{{CUSTOMER_NAME}}</b>,</p>
+  <p>Has placed the order successfully</p>
+  <p>The total amount of your order is <b>₹{{TOTAL_AMOUNT}}</b>,Make sure the payment is done and confirm the order.</p> 
+  <p>Verify your order details below:</p>
+  <h3 style="margin-top:20px; color:#2c3e50;">Customer Details</h3>
+  <table cellspacing="0" cellpadding="6" border="1" style="border-collapse:collapse; width:100%; font-size:14px;">
+    <tr><td><b>Name</b></td><td>{{CUSTOMER_NAME}}</td></tr>
+    <tr><td><b>Email</b></td><td>{{CUSTOMER_EMAIL}}</td></tr>
+    <tr><td><b>Phone</b></td><td>{{CUSTOMER_PHONE}}</td></tr>
+    <tr><td><b>Address</b></td><td>{{CUSTOMER_ADDRESS}}</td></tr>
+    <tr><td><b>City</b></td><td>{{CUSTOMER_CITY}}</td></tr>
+    <tr><td><b>State</b></td><td>{{CUSTOMER_STATE}}</td></tr>
+    <tr><td><b>Pincode</b></td><td>{{CUSTOMER_PINCODE}}</td></tr>
+  </table>
+
+  <h3 style="margin-top:20px; color:#2c3e50;">Order Details</h3>
+  <table cellspacing="0" cellpadding="8" border="1" style="border-collapse:collapse; width:100%; font-size:14px; text-align:center;">
+    <tr style="background:#f4f4f4;">
+      <th>Code</th>
+      <th>Product</th>
+      <th>Rate</th>
+      <th>Qty</th>
+      <th>Category</th>
+      <th>Amount</th>
+    </tr>
+    {{ORDER_ITEMS}}
+  </table>
+
+  <p style="text-align:right; font-size:15px; margin-top:10px;">
+    <b>Total Items:</b> {{ORDER_TOTAL}} <br>
+    <b>Total Products:</b> {{TOTAL_PRODUCTS}} <br>
+    <b>Total Amount:</b> ₹{{TOTAL_AMOUNT}}
+  </p>
+     <div>Order Status: <b>Processing</b></div>
+  <div class="color:red">Please verify the payment is done and Confirm the order</div>
+  <div>Thanks</div> Fireworks Team
+</div>
+
+
+
+
+
+
+

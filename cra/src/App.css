@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+.ant-modal-body::-webkit-scrollbar {
+    display: none;
+}
+
