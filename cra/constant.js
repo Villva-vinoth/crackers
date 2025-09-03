@@ -1,4 +1,4 @@
-export const NAME = "SSS Fireworks"
+export const NAME = "Sri Sivasakthi Fireworks"
 export const ABOUT = `Welcome to "Sri Sivasakthi Crackers!" \n
 We're a family-owned and operated cracker shop dedicated to bringing joy and excitement to your celebrations.
 With a passion for fireworks and a commitment to quality, we've been serving our community for over 6 years.`
