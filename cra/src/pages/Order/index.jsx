@@ -5,7 +5,7 @@ import { CustomerDetailsForm } from '../CustomerForm';
 import { useLocation, useNavigate } from 'react-router';
 import { useFormProvider } from '../../context/FormProvider';
 import Lottie from 'lottie-react';
-import thankYouAnimation from '../../assets/thankYou.json';
+import thankYouAnimation from '../../assets/thankyou.json';
 import axios from 'axios';
 import { CREATE_ORDER, MAIL } from '../../../ApiConstant';
 export const OrderPage = () => {

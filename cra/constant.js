@@ -14,7 +14,8 @@ export const WHYCHOOSEUS = [
 ]
 export const BANNER = [
     '/assets/homebanner.png',
-    // '/assets/bannner2.gif',
+    '/assets/bannner2.gif',
+    '/assets/banner3.jpg',
 
     // '/assets/homeTemplate.jpg',
     // '/assets/homeTemplate.jpg',
