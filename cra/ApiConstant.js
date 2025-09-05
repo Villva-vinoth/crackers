@@ -1,8 +1,8 @@
 // const BASEURL = `http://localhost:4000/api`
 // export const APIURL = `http://localhost:4000/`
 
-const BASEURL = `http://31.97.62.45:4000/api`
-export const APIURL = `http://31.97.62.45:4000/`
+const BASEURL = `https://crazycrackers.in/backend/api`
+export const APIURL = `https://crazycrackers.in/backend/`
 // export const BASEURL = `https://92pp42cw-4000.inc1.devtunnels.ms/api`
 // export const APIURL = `https://92pp42cw-4000.inc1.devtunnels.ms/`
 export const IMAGEUPLOAD = BASEURL + `/image/upload`
