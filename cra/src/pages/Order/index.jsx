@@ -177,20 +177,27 @@ export const OrderPage = () => {
       title: 'Product',
       dataIndex: 'product',
       key: 'product',
+      // width : 100
     },
     {
       title: 'Quantity',
       dataIndex: 'qty',
       key: 'qty',
+            // width : 100
+
     },
     {
       title: 'Amount',
       dataIndex: 'amount',
       key: 'amount',
+            // width : 100,
+
       render: (amount) => `₹ ${amount.toFixed(2)}`,
     },
     {
       title: 'Action',
+            // width : 100,
+
       key: 'action',
       render: (_, record) => (
         <Button type="link" danger onClick={() => handleRemove(record.code)}>
@@ -205,21 +212,25 @@ export const OrderPage = () => {
       title: 'Code',
       dataIndex: 'code',
       key: 'code',
+      width:80
     },
     {
       title: 'Product',
       dataIndex: 'product',
       key: 'product',
+      width:150
     },
     {
       title: 'Discount Rate',
       dataIndex: 'rate',
       key: 'rate',
+      width:120,
     },
     {
       title: 'Quantity',
       dataIndex: 'qty',
       key: 'qty',
+      width:120,
       render: (text, record, index) => (
         <InputNumber
           min={0}
@@ -234,6 +245,7 @@ export const OrderPage = () => {
       title: 'Amount',
       dataIndex: 'amount',
       key: 'amount',
+      width:100,
     },
   ];
 
@@ -248,6 +260,7 @@ export const OrderPage = () => {
             columns={columns}
             pagination={false}
             rowKey="code"
+            scroll={{ x: 400 }}
             components={{
               header: {
                 cell: (props) => (

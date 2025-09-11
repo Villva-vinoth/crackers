@@ -7,8 +7,10 @@ module.exports = {
                 attributes: {
                     include: [
                         [productModel.sequelize.literal(`(SELECT categories.name FROM categories WHERE categories.id = products.category)`), 'category_name']
-                    ]
-                }
+                    ],
+
+                },
+                order: [['id', 'asc'], ['category', 'asc']]
             });
         } catch (error) {
             throw error
